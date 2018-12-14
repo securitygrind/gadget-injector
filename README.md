@@ -68,4 +68,4 @@ More on <a href="https://securitygrind.com/ssl-pinning-bypass-with-frida-gadget-
 <br />
 <h2>Limitations</h2>
 The tool was created for and tested for a limitted amount of Android applications, tweaking the code may be necessary to make it work under specific enviroment conditions. <br />
-The tool does not attempts to bypass integrity checks. 
+The tool does not attempt to bypass integrity checks. <br />
