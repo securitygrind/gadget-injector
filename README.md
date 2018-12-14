@@ -1,4 +1,4 @@
-<h1>SSL Repinner</h1>
+<h1>Gadget Injector</h1>
 
 This tool automatically injects the frida-gadget binary into an Android application (provided as parameter in apk format), in order to bypass SSL Pinning to intercept and decrypt the traffic and communication between the mobile client and the server. <br />
 <br />
@@ -34,7 +34,7 @@ To complete the task, you will also need: <br />
 </ol>
 <br />
 <h2>Usage</h2>
-<code>./sslrepinner.py -h </code> <br /><br />
+<code>./gadget-injector.py -h </code> <br /><br />
  
 		-a, --target-apk	 The target apk file.
 		-c, --proxy-cert	 The proxy's CA certificate file in DER format.
@@ -42,7 +42,7 @@ To complete the task, you will also need: <br />
 		-r, --device-arch	 The device's architecture (i.e: x86).
 
 <br />
-<code>./sslrepinner.py -a app.apk -c cacert.der -g frida-gadget-12.2.26-android-x86.so -r x86 </code><br /><br />
+<code>./gadget-injector.py -a app.apk -c cacert.der -g frida-gadget-12.2.26-android-x86.so -r x86 </code><br /><br />
 
 	[i] Converting DER to PEM...
 	[i] Decoding with apktool...
