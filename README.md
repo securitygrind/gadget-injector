@@ -64,7 +64,7 @@ After that you need to: <br />
 <li>Check proxy for intercepted traffic. </li>
 </ol>
 <br />
-More on <a href="https://securitygrind.com/ssl-pinning-bypass-with-frida-gadget-+sslrepinner-py" target="__blank">SSL pinning bypass with frida-gadget here</a>.
+More on <a href="https://securitygrind.com/ssl-pinning-bypass-with-frida-gadget-sslrepinner-py" target="__blank">SSL pinning bypass with frida-gadget here</a>.
 <br />
 <h2>Limitations</h2>
 The tool was created for and tested for a limitted amount of Android applications, tweaking the code may be necessary to make it work under specific enviroment conditions. <br />
