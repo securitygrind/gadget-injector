@@ -1,8 +1,8 @@
 <h1>Gadget Injector</h1>
 
-This tool automatically injects the frida-gadget binary into an Android application (provided as parameter in apk format), in order to bypass SSL Pinning to intercept and decrypt the traffic and communication between the mobile client and the server. <br />
+This tool automatically injects the frida-gadget binary into an Android application (.apk format), in order to bypass SSL Pinning to intercept and decrypt the communication between the mobile client and the server. <br />
 <br />
-The tool only tampers the application, installation of apk, configuration of device and running frida is expected to be done manually. 
+The tool only tampers the application, post installation of apk, configuration of device and running frida needs to be done manually. 
 <br />
 <h2>What does it do?</h2></li>
 <ol>
@@ -55,7 +55,7 @@ To complete the task, you will also need: <br />
 	[+] Signing with apksigner...
 	[+] TAMPERED APK HERE  -> path/to/apk-aligned-signed.apk	
 <br />
-After that you need to: <br />
+After that, you need to: <br />
 <ol>
 <li>Install tampered apk on device. </li>
 <li>Configure device to use proxy (i.e.: Burpsuite) </li>
