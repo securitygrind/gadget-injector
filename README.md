@@ -17,12 +17,12 @@ The tool only tampers the application, post installation of apk, configuration o
 <br />
 <h2>Requirements</h2>
 <ol>
-<li>Python 2.7</li>
+<li>python 2.7</li>
 <li>apktool</li>
-<li>OpenSSL</li>
-<li>Frida (+ frida-gadget binary)</li>
+<li>openssl</li>
+<li>frida (+ frida-gadget binary)</li>
 <li>zipalign</li>
-<li>Keytool</li>
+<li>keytool</li>
 <li>apksigner</li>
 </ol>
 <br />
