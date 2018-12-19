@@ -17,7 +17,7 @@ The tool only tampers the application, post installation of apk, configuration o
 <br />
 <h2>Requirements</h2>
 <ol>
-<li>Puthon 2.7</li>
+<li>Python 2.7</li>
 <li>apktool</li>
 <li>OpenSSL</li>
 <li>Frida (+ frida-gadget binary)</li>
